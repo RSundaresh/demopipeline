@@ -1,7 +1,7 @@
 pipeline
 {
 agent any
-  {
+  
     stages
     {
       stage('one'){
@@ -15,5 +15,5 @@ agent any
       echo 'bye'
       }
     }
-  }
+  
 }
